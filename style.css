@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #c1a841;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.nav-item {
+    float: left;
+    display: block;
+    color: #202628;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: #975252;
+}
+
+.content {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.scroll {
+    background-color: #58b3a9;
+}
